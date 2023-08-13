@@ -1,0 +1,52 @@
+.app_chef {
+    background-color: black;
+    color: antiquewhite;
+    padding-top: 5vh;
+    max-width: 100vw;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.app_chef_chefimg img {
+    width: 30vw;
+    height: 50vh;
+}
+
+.app_chef_right {
+    width: 40vw;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.app_chef_chef_info {
+    /* border: 2px solid green; */
+    margin-top: 10vh;
+}
+
+.app_chef_chef_info img {
+    width: 3vw;
+}
+
+.app_chef_chef_verifying img {
+    width: 10vw;
+}
+
+.app_specialmenu_video {
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+.app_specialmenu_video video {
+    border-radius: 2vh;
+    max-width: 90vw;
+}

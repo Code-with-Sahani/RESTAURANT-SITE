@@ -1,0 +1,122 @@
+.app_navbar {
+    /* border:2px solid black; */
+    position:fixed;
+    top: 0;
+    margin-left: 0;
+    background-color: black;
+    color: wheat;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.app_navbar_logo img {
+    width: 150px;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.app_navbar_links {
+    flex: 2.5;
+    scroll-behavior: smooth;
+}
+
+.app_navbar_links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app_navbar_links ul li {
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.app_navbar_links ul li a {
+    text-decoration: none;
+    color: rgb(255, 219, 129);
+}
+
+.app_navbar_links ul li a:hover {
+    border-bottom: 1px solid rgb(255, 219, 129);
+    color: rgb(255, 219, 129);
+    cursor: pointer;
+}
+
+.app_navbar_login {
+    margin-right: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.app_navbar_login div {
+    width: 1.5px;
+    height: 4vh;
+    background-color: grey;
+    margin: 0 1rem;
+}
+
+.app_navbar_login p:hover {
+    border-bottom: 1px solid rgb(255, 219, 129);
+    transform: .5 ease;
+}
+
+.app_navbar_smallscreen {
+    display: none;
+
+}
+
+.app_navbar_links_smallscreen_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color:goldenrod;
+
+}
+.closing_btn{
+    /* border:2px solid red; */
+    margin-left: 94vw;
+    margin-top: 3vh;
+    font-size: 5vh;
+    }
+    
+.app_navbar_links_smallscreen_overlay ul{
+    
+    margin: 20vh;
+    height: 45vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.app_navbar_links_smallscreen_overlay ul li{
+    list-style: none;
+
+}
+.app_navbar_links_smallscreen_overlay ul li a{
+    text-decoration: none;
+    color: goldenrod;
+    font-size:2rem;
+}
+
+@media screen and (max-width: 1150px) {
+     
+    .app_navbar_links{
+        display:none;
+    }
+    .app_navbar_smallscreen{
+        display:flex;
+    }
+    .app_navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
